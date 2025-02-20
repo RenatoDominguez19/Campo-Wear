@@ -1,0 +1,428 @@
+/* Inicio Body */
+body,h1,h2,p,ul,li,a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h2, h1, h3 {
+    color: #296D0F;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Fin Body */
+
+/* Inicio Header */
+.envios-gratis {
+    background-color: #296D0F;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.menu {
+    display: flex;
+    padding: 10px 60px;
+    background-color: #fff;
+    position: relative;
+}
+
+.menu .logo img {
+    height: 120px;
+}
+
+.links {
+    margin: auto;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.links li {
+    position: relative;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #002b49;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Efecto de hover */
+.links li a:hover {
+    color: #fff;
+    background-color: #296D0F;
+    border-radius: 4px;
+}
+
+/* Fin Header */
+
+/* Inicio Banner */
+.imagen-banner {
+    width: 100%;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* Fin Banner */
+
+/* Inicio seccion-principal */
+.seccion-principal {
+    padding: 100px 20px;
+}
+
+.texto-contenido h2 {
+    font-size: 48px;
+}
+
+/* Fin seccion-principal */
+
+/* Inicio Nosotros */
+.nosotros {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.contenido-nosotros {
+    display: flex;
+    text-align: justify;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.texto-nosotros {
+    flex: 1;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+
+.imagen-nosotros {
+    flex: 1;
+}
+
+.imagen-nosotros img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* FIn Nosotros  */
+
+/* Inicio Misión */
+.mision {
+    padding: 50px 0;
+    background-color: #eaeaea;
+}
+
+.contenido-mision {
+    display: flex;
+    text-align: justify;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.texto-mision {
+    flex: 1;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+
+.imagen-mision {
+    flex: 1;
+}
+
+.imagen-mision img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Fin Mision */
+
+/* Inicio Visión */
+.vision {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.contenido-vision {
+    display: flex;
+    text-align: justify;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.texto-vision {
+    flex: 1;
+    padding-right: 50px;
+    margin-bottom: 0px;
+}
+
+.imagen-vision {
+    flex: 1;
+}
+
+.imagen-vision img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Fin Vision */
+
+/* Inicio de Tabla */
+/* Tabla */
+.precios {
+    padding: 50px 0;
+    background-color: #eaeaea;
+}
+
+.table {
+    display: table;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.row:hover {
+    background-color: #296D0F;
+    color: #fff;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* Fin de Tabla */
+
+/* Footer */
+footer {
+    background-color: #296D0F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+/* Estilos para la galería de camisetas */
+.galeria {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.galeria h2 {
+    font-size: 36px;
+    color: #002b49;
+    margin-bottom: 20px;
+}
+
+/* Grid para las camisetas en una sola fila */
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* Se ajusta automáticamente */
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+/* Cada camiseta en su cuadro */
+.galeria-item {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.galeria-item img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.galeria-item p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #002b49;
+    margin-top: 10px;
+}
+
+.catalogo {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.catalogo h2 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.catalogo p {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* ====== Inicio Responsive ====== */
+
+/* Para tabletas */
+@media (max-width: 1024px) {
+    .menu {
+        padding: 10px 30px;
+    }
+
+    .contenido-nosotros {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .texto-nosotros {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+/* Para móviles */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contenido-nosotros {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .imagen-nosotros img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cell {
+        padding: 5px;
+    }
+}
+
+/* ====== Fin Responsive ====== */
+
+.formulario-contacto {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario-contacto div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;  /* Asegura alineación izquierda */
+    gap: 5px;
+    width: 100%;
+}
+
+.formulario-contacto label {
+    font-weight: bold;
+    color: #101111;
+    margin-bottom: 3px;
+}
+
+.formulario-contacto input,
+.formulario-contacto select,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Evita que padding afecte el ancho */
+}
+
+.formulario-contacto textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.formulario-contacto button {
+    width: 100%;
+    padding: 12px;
+    background-color: #296D0F;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-contacto button:hover {
+    background-color: #21570c;
+}
+
+/* ====== Fin Contacto/Forulario ====== */
